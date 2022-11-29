@@ -8,7 +8,7 @@
     "build": "./node_modules/.bin/netlify-lambda build src",
     "setup": "ts-node src/setup.ts",
     "ts-check": "tsc --noEmit --lib ES2015 ./src/*.ts",
-    "lint": "eslint . --ignore-path .gitignore --fix",
+    "lint": "eslint . --ignore-path .gitignore",
     "prepare": "husky install"
   },
   "keywords": [],

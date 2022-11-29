@@ -4,7 +4,7 @@ import serverless from 'serverless-http';
 
 const router = express.Router();
 
-const app = express()
+const app = express();
 
 app.use(cors());
 
