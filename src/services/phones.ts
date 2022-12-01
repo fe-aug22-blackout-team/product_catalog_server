@@ -3,7 +3,7 @@ import path from 'path';
 
 import { Phone } from 'src/types/Phone';
 
-const phonesPath = path.resolve('data', 'phones.json');
+const phonesPath = path.join('src', 'data', 'phones.json');
 
 async function read() {
   const data = await fs.readFile(phonesPath, 'utf8');
