@@ -1,21 +1,15 @@
-import fs from 'fs/promises';
-import path from 'path';
+import { phoneData } from '../data/phones';
 
 import { Phone } from 'src/types/Phone';
 
-const phonesPath = path.resolve('data', 'phones.json');
-
-async function read() {
-  const data = await fs.readFile(phonesPath, 'utf8');
-
-  return JSON.parse(data);
-}
-
 export async function getSlicedPhones(page: number, limit: number) {
-  const phones: Phone[] = await read();
+  const phones: Phone[] = phoneData;
 
   const startIndex = (page - 1) * limit;
   const endIndex = page * limit;
 
-  return phones.slice(startIndex, endIndex);
+  return {
+    content: phones.slice(startIndex, endIndex),
+    totalPhones: phones.length,
+  };
 }
