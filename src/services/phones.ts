@@ -15,7 +15,7 @@ const phones: Phone[] = [
     'color': 'black',
     'ram': '2GB',
     'year': 2016,
-    'image': 'img/phones/apple-iphone-7/black/00.jpg',
+    'image': 'https://i.imgur.com/LPiEt9u.png',
   },
   {
     'id': 2,
@@ -30,7 +30,7 @@ const phones: Phone[] = [
     'color': 'black',
     'ram': '3GB',
     'year': 2016,
-    'image': 'img/phones/apple-iphone-7-plus/black/00.jpg',
+    'image': 'https://i.imgur.com/VByfCEF.png',
   },
   {
     'id': 3,
@@ -45,7 +45,7 @@ const phones: Phone[] = [
     'color': 'gold',
     'ram': '2GB',
     'year': 2017,
-    'image': 'img/phones/apple-iphone-8/gold/00.jpg',
+    'image': 'https://i.imgur.com/efEv8LA.png',
   },
   {
     'id': 4,
@@ -60,7 +60,7 @@ const phones: Phone[] = [
     'color': 'black',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11/black/00.jpg',
+    'image': 'https://i.imgur.com/8QAUELM.png',
   },
   {
     'id': 5,
@@ -75,7 +75,7 @@ const phones: Phone[] = [
     'color': 'yellow',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11/yellow/00.jpg',
+    'image': 'https://i.imgur.com/40SIOFJ.png',
   },
   {
     'id': 6,
@@ -90,7 +90,7 @@ const phones: Phone[] = [
     'color': 'green',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11/green/00.jpg',
+    'image': 'https://i.imgur.com/rm2Jq7F.png',
   },
   {
     'id': 7,
@@ -105,7 +105,7 @@ const phones: Phone[] = [
     'color': 'gold',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11-pro/gold/00.jpg',
+    'image': 'https://i.imgur.com/wy5eEWg.png',
   },
   {
     'id': 8,
@@ -120,7 +120,7 @@ const phones: Phone[] = [
     'color': 'midnightgreen',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11-pro/midnightgreen/00.jpg',
+    'image': 'https://i.imgur.com/h788th7.png',
   },
   {
     'id': 9,
@@ -135,7 +135,7 @@ const phones: Phone[] = [
     'color': 'silver',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11-pro/silver/00.jpg',
+    'image': 'https://i.imgur.com/9NMs3Rj.png',
   },
   {
     'id': 10,
@@ -150,7 +150,7 @@ const phones: Phone[] = [
     'color': 'spacegray',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11-pro-max/spacegray/00.jpg',
+    'image': 'https://i.imgur.com/12apHqm.png',
   },
   {
     'id': 11,
@@ -165,7 +165,7 @@ const phones: Phone[] = [
     'color': 'gold',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11-pro-max/gold/00.jpg',
+    'image': 'https://i.imgur.com/SARS5Qr.png',
   },
   {
     'id': 12,
@@ -180,7 +180,7 @@ const phones: Phone[] = [
     'color': 'spacegray',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11-pro-max/spacegray/00.jpg',
+    'image': 'https://i.imgur.com/12apHqm.png',
   },
   {
     'id': 13,
@@ -195,7 +195,7 @@ const phones: Phone[] = [
     'color': 'red',
     'ram': '3GB',
     'year': 2018,
-    'image': 'img/phones/apple-iphone-xr/red/00.jpg',
+    'image': 'https://i.imgur.com/xwPDYmj.png',
   },
   {
     'id': 14,
@@ -210,7 +210,7 @@ const phones: Phone[] = [
     'color': 'white',
     'ram': '3GB',
     'year': 2018,
-    'image': 'img/phones/apple-iphone-xr/white/00.jpg',
+    'image': 'https://i.imgur.com/hVWpGeA.png',
   },
   {
     'id': 15,
@@ -225,7 +225,7 @@ const phones: Phone[] = [
     'color': 'spacegray',
     'ram': '4GB',
     'year': 2018,
-    'image': 'img/phones/apple-iphone-xs/spacegray/00.jpg',
+    'image': 'https://i.imgur.com/Rgww3AV.png',
   },
   {
     'id': 16,
@@ -240,7 +240,7 @@ const phones: Phone[] = [
     'color': 'gold',
     'ram': '4GB',
     'year': 2018,
-    'image': 'img/phones/apple-iphone-xs-max/gold/00.jpg',
+    'image': 'https://i.imgur.com/7QSLU0P.png',
   },
   {
     'id': 17,
@@ -255,7 +255,7 @@ const phones: Phone[] = [
     'color': 'silver',
     'ram': '4GB',
     'year': 2018,
-    'image': 'img/phones/apple-iphone-xs-max/silver/00.jpg',
+    'image': 'https://i.imgur.com/ayN8rb4.png',
   },
   {
     'id': 18,
@@ -270,7 +270,7 @@ const phones: Phone[] = [
     'color': 'gold',
     'ram': '2GB',
     'year': 2016,
-    'image': 'img/phones/apple-iphone-7/gold/00.jpg',
+    'image': 'https://i.imgur.com/lpwXcTj.png',
   },
   {
     'id': 19,
@@ -285,7 +285,7 @@ const phones: Phone[] = [
     'color': 'silver',
     'ram': '3GB',
     'year': 2016,
-    'image': 'img/phones/apple-iphone-7-plus/silver/00.jpg',
+    'image': 'https://i.imgur.com/XSw9sWd.png',
   },
   {
     'id': 20,
@@ -300,7 +300,7 @@ const phones: Phone[] = [
     'color': 'spacegray',
     'ram': '2GB',
     'year': 2017,
-    'image': 'img/phones/apple-iphone-8/spacegray/00.jpg',
+    'image': 'https://i.imgur.com/9Ys9KP3.png',
   },
   {
     'id': 21,
@@ -315,7 +315,7 @@ const phones: Phone[] = [
     'color': 'green',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11/green/00.jpg',
+    'image': 'https://i.imgur.com/rm2Jq7F.png',
   },
   {
     'id': 22,
@@ -330,7 +330,7 @@ const phones: Phone[] = [
     'color': 'purple',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11/purple/00.jpg',
+    'image': 'https://i.imgur.com/96Lj9JO.png',
   },
   {
     'id': 23,
@@ -345,7 +345,7 @@ const phones: Phone[] = [
     'color': 'yellow',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11/yellow/00.jpg',
+    'image': 'https://i.imgur.com/40SIOFJ.png',
   },
   {
     'id': 24,
@@ -360,7 +360,7 @@ const phones: Phone[] = [
     'color': 'gold',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11-pro/gold/00.jpg',
+    'image': 'https://i.imgur.com/SARS5Qr.png',
   },
   {
     'id': 25,
@@ -375,7 +375,7 @@ const phones: Phone[] = [
     'color': 'spacegray',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11-pro/spacegray/00.jpg',
+    'image': 'https://i.imgur.com/Nob4v4A.png',
   },
   {
     'id': 26,
@@ -390,7 +390,7 @@ const phones: Phone[] = [
     'color': 'silver',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11-pro-max/silver/00.jpg',
+    'image': 'https://i.imgur.com/ToZVvYS.png',
   },
   {
     'id': 27,
@@ -405,7 +405,7 @@ const phones: Phone[] = [
     'color': 'midnightgreen',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11-pro-max/midnightgreen/00.jpg',
+    'image': 'https://i.imgur.com/3BUgOmv.png',
   },
   {
     'id': 28,
@@ -420,7 +420,7 @@ const phones: Phone[] = [
     'color': 'silver',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11-pro-max/silver/00.jpg',
+    'image': 'https://i.imgur.com/ToZVvYS.png',
   },
   {
     'id': 29,
@@ -435,7 +435,7 @@ const phones: Phone[] = [
     'color': 'white',
     'ram': '3GB',
     'year': 2018,
-    'image': 'img/phones/apple-iphone-xr/white/00.jpg',
+    'image': 'https://i.imgur.com/hVWpGeA.png',
   },
   {
     'id': 30,
@@ -450,7 +450,7 @@ const phones: Phone[] = [
     'color': 'coral',
     'ram': '3GB',
     'year': 2018,
-    'image': 'img/phones/apple-iphone-xr/coral/00.jpg',
+    'image': 'https://i.imgur.com/IRtnQlM.png',
   },
   {
     'id': 31,
@@ -465,7 +465,7 @@ const phones: Phone[] = [
     'color': 'gold',
     'ram': '4GB',
     'year': 2018,
-    'image': 'img/phones/apple-iphone-xs/gold/00.jpg',
+    'image': 'https://i.imgur.com/hrBBXhS.png',
   },
   {
     'id': 32,
@@ -480,7 +480,7 @@ const phones: Phone[] = [
     'color': 'spacegray',
     'ram': '4GB',
     'year': 2018,
-    'image': 'img/phones/apple-iphone-xs/spacegray/00.jpg',
+    'image': 'https://i.imgur.com/Rgww3AV.png',
   },
   {
     'id': 33,
@@ -495,7 +495,7 @@ const phones: Phone[] = [
     'color': 'silver',
     'ram': '4GB',
     'year': 2018,
-    'image': 'img/phones/apple-iphone-xs-max/silver/00.jpg',
+    'image': 'https://i.imgur.com/ayN8rb4.png',
   },
   {
     'id': 34,
@@ -510,7 +510,7 @@ const phones: Phone[] = [
     'color': 'gold',
     'ram': '4GB',
     'year': 2018,
-    'image': 'img/phones/apple-iphone-xs-max/gold/00.jpg',
+    'image': 'https://i.imgur.com/7QSLU0P.png',
   },
   {
     'id': 35,
@@ -525,7 +525,7 @@ const phones: Phone[] = [
     'color': 'rosegold',
     'ram': '2GB',
     'year': 2016,
-    'image': 'img/phones/apple-iphone-7/rosegold/00.jpg',
+    'image': 'https://i.imgur.com/uU1NDSt.png',
   },
   {
     'id': 36,
@@ -540,7 +540,7 @@ const phones: Phone[] = [
     'color': 'purple',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11/purple/00.jpg',
+    'image': 'https://i.imgur.com/96Lj9JO.png',
   },
   {
     'id': 37,
@@ -555,7 +555,7 @@ const phones: Phone[] = [
     'color': 'red',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11/red/00.jpg',
+    'image': 'https://i.imgur.com/g9HDeWl.png',
   },
   {
     'id': 38,
@@ -570,7 +570,7 @@ const phones: Phone[] = [
     'color': 'black',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11/black/00.jpg',
+    'image': 'https://i.imgur.com/8QAUELM.png',
   },
   {
     'id': 39,
@@ -585,7 +585,7 @@ const phones: Phone[] = [
     'color': 'red',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11/red/00.jpg',
+    'image': 'https://i.imgur.com/g9HDeWl.png',
   },
   {
     'id': 40,
@@ -600,7 +600,7 @@ const phones: Phone[] = [
     'color': 'midnightgreen',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11-pro/midnightgreen/00.jpg',
+    'image': 'https://i.imgur.com/3BUgOmv.png',
   },
   {
     'id': 41,
@@ -615,7 +615,7 @@ const phones: Phone[] = [
     'color': 'silver',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11-pro/silver/00.jpg',
+    'image': 'https://i.imgur.com/ToZVvYS.png',
   },
   {
     'id': 42,
@@ -630,7 +630,7 @@ const phones: Phone[] = [
     'color': 'gold',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11-pro/gold/00.jpg',
+    'image': 'https://i.imgur.com/SARS5Qr.png',
   },
   {
     'id': 43,
@@ -645,7 +645,7 @@ const phones: Phone[] = [
     'color': 'midnightgreen',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11-pro-max/midnightgreen/00.jpg',
+    'image': 'https://i.imgur.com/3BUgOmv.png',
   },
   {
     'id': 44,
@@ -660,7 +660,7 @@ const phones: Phone[] = [
     'color': 'spacegray',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11-pro-max/spacegray/00.jpg',
+    'image': 'https://i.imgur.com/Nob4v4A.png',
   },
   {
     'id': 45,
@@ -675,7 +675,7 @@ const phones: Phone[] = [
     'color': 'coral',
     'ram': '3GB',
     'year': 2018,
-    'image': 'img/phones/apple-iphone-xr/coral/00.jpg',
+    'image': 'https://i.imgur.com/IRtnQlM.png',
   },
   {
     'id': 46,
@@ -690,7 +690,7 @@ const phones: Phone[] = [
     'color': 'red',
     'ram': '3GB',
     'year': 2018,
-    'image': 'img/phones/apple-iphone-xr/red/00.jpg',
+    'image': 'https://i.imgur.com/xwPDYmj.png',
   },
   {
     'id': 47,
@@ -705,7 +705,7 @@ const phones: Phone[] = [
     'color': 'gold',
     'ram': '4GB',
     'year': 2018,
-    'image': 'img/phones/apple-iphone-xs/gold/00.jpg',
+    'image': 'https://i.imgur.com/hrBBXhS.png',
   },
   {
     'id': 48,
@@ -720,7 +720,7 @@ const phones: Phone[] = [
     'color': 'spacegray',
     'ram': '4GB',
     'year': 2018,
-    'image': 'img/phones/apple-iphone-xs-max/spacegray/00.jpg',
+    'image': 'https://i.imgur.com/7fw15Pm.png',
   },
   {
     'id': 49,
@@ -735,7 +735,7 @@ const phones: Phone[] = [
     'color': 'rosegold',
     'ram': '3GB',
     'year': 2016,
-    'image': 'img/phones/apple-iphone-7-plus/rosegold/00.jpg',
+    'image': 'https://i.imgur.com/xzWSUCd.png',
   },
   {
     'id': 50,
@@ -750,7 +750,7 @@ const phones: Phone[] = [
     'color': 'white',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11/white/00.jpg',
+    'image': 'https://i.imgur.com/yq9Zlfd.png',
   },
   {
     'id': 51,
@@ -765,7 +765,7 @@ const phones: Phone[] = [
     'color': 'green',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11/green/00.jpg',
+    'image': 'https://i.imgur.com/rm2Jq7F.png',
   },
   {
     'id': 52,
@@ -780,7 +780,7 @@ const phones: Phone[] = [
     'color': 'white',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11/white/00.jpg',
+    'image': 'https://i.imgur.com/yq9Zlfd.png',
   },
   {
     'id': 53,
@@ -795,7 +795,7 @@ const phones: Phone[] = [
     'color': 'black',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11/black/00.jpg',
+    'image': 'https://i.imgur.com/8QAUELM.png',
   },
   {
     'id': 54,
@@ -810,7 +810,7 @@ const phones: Phone[] = [
     'color': 'white',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11/white/00.jpg',
+    'image': 'https://i.imgur.com/yq9Zlfd.png',
   },
   {
     'id': 55,
@@ -825,7 +825,7 @@ const phones: Phone[] = [
     'color': 'spacegray',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11-pro/spacegray/00.jpg',
+    'image': 'https://i.imgur.com/12apHqm.png',
   },
   {
     'id': 56,
@@ -840,7 +840,7 @@ const phones: Phone[] = [
     'color': 'midnightgreen',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11-pro/midnightgreen/00.jpg',
+    'image': 'https://i.imgur.com/3BUgOmv.png',
   },
   {
     'id': 57,
@@ -855,7 +855,7 @@ const phones: Phone[] = [
     'color': 'gold',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11-pro-max/gold/00.jpg',
+    'image': 'https://i.imgur.com/SARS5Qr.png',
   },
   {
     'id': 58,
@@ -870,7 +870,7 @@ const phones: Phone[] = [
     'color': 'silver',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11-pro-max/silver/00.jpg',
+    'image': 'https://i.imgur.com/ToZVvYS.png',
   },
   {
     'id': 59,
@@ -885,7 +885,7 @@ const phones: Phone[] = [
     'color': 'midnightgreen',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11-pro-max/midnightgreen/00.jpg',
+    'image': 'https://i.imgur.com/3BUgOmv.png',
   },
   {
     'id': 60,
@@ -900,7 +900,7 @@ const phones: Phone[] = [
     'color': 'yellow',
     'ram': '3GB',
     'year': 2018,
-    'image': 'img/phones/apple-iphone-xr/yellow/00.jpg',
+    'image': 'https://i.imgur.com/crHkE8b.png',
   },
   {
     'id': 61,
@@ -915,7 +915,7 @@ const phones: Phone[] = [
     'color': 'silver',
     'ram': '2GB',
     'year': 2016,
-    'image': 'img/phones/apple-iphone-7/silver/00.jpg',
+    'image': 'https://i.imgur.com/RfJn5xL.png',
   },
   {
     'id': 62,
@@ -930,7 +930,7 @@ const phones: Phone[] = [
     'color': 'purple',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11/purple/00.jpg',
+    'image': 'https://i.imgur.com/96Lj9JO.png',
   },
   {
     'id': 63,
@@ -945,7 +945,7 @@ const phones: Phone[] = [
     'color': 'gold',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11-pro-max/gold/00.jpg',
+    'image': 'https://i.imgur.com/SARS5Qr.png',
   },
   {
     'id': 64,
@@ -960,7 +960,7 @@ const phones: Phone[] = [
     'color': 'yellow',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11/yellow/00.jpg',
+    'image': 'https://i.imgur.com/40SIOFJ.png',
   },
   {
     'id': 65,
@@ -975,7 +975,7 @@ const phones: Phone[] = [
     'color': 'spacegray',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11-pro/spacegray/00.jpg',
+    'image': 'https://i.imgur.com/12apHqm.png',
   },
   {
     'id': 66,
@@ -990,7 +990,7 @@ const phones: Phone[] = [
     'color': 'silver',
     'ram': '2GB',
     'year': 2017,
-    'image': 'img/phones/apple-iphone-8/silver/00.jpg',
+    'image': 'https://i.imgur.com/CH8MRKd.png',
   },
   {
     'id': 67,
@@ -1005,7 +1005,7 @@ const phones: Phone[] = [
     'color': 'red',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11/red/00.jpg',
+    'image': 'https://i.imgur.com/g9HDeWl.png',
   },
   {
     'id': 68,
@@ -1020,7 +1020,7 @@ const phones: Phone[] = [
     'color': 'spacegray',
     'ram': '4GB',
     'year': 2018,
-    'image': 'img/phones/apple-iphone-xs-max/spacegray/00.jpg',
+    'image': 'https://i.imgur.com/7fw15Pm.png',
   },
   {
     'id': 69,
@@ -1035,7 +1035,7 @@ const phones: Phone[] = [
     'color': 'gold',
     'ram': '3GB',
     'year': 2016,
-    'image': 'img/phones/apple-iphone-7-plus/gold/00.jpg',
+    'image': 'https://i.imgur.com/B8ltD0d.png',
   },
   {
     'id': 70,
@@ -1050,7 +1050,7 @@ const phones: Phone[] = [
     'color': 'silver',
     'ram': '4GB',
     'year': 2019,
-    'image': 'img/phones/apple-iphone-11-pro/silver/00.jpg',
+    'image': 'https://i.imgur.com/ToZVvYS.png',
   },
   {
     'id': 71,
@@ -1065,7 +1065,7 @@ const phones: Phone[] = [
     'color': 'yellow',
     'ram': '3GB',
     'year': 2018,
-    'image': 'img/phones/apple-iphone-xr/yellow/00.jpg',
+    'image': 'https://i.imgur.com/crHkE8b.png',
   },
 ];
 
