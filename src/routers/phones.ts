@@ -4,5 +4,4 @@ import * as phonesController from '../controllers/phones';
 
 export const phonesRouter = express.Router();
 
-phonesRouter.get('/', phonesController.getAllPhones);
-phonesRouter.get('/pagination', phonesController.getSlicedPhones);
+phonesRouter.get('/', phonesController.getSlicedPhones);

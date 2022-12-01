@@ -2,17 +2,12 @@ import { Request, Response } from 'express';
 
 import * as phonesService from '../services/phones';
 
-export const getAllPhones = (req: Request, res: Response) => {
-  const phones = phonesService.getAllPhones();
-
-  res.send(phones);
-};
-
-export const getSlicedPhones = (req: Request, res: Response) => {
+export const getSlicedPhones = async(req: Request, res: Response) => {
   const page = req.query.page || 1;
   const limit = req.query.limit || 16;
 
-  const phones = phonesService.getSlicedPhones(+page, +limit);
+  const phones = await phonesService.getSlicedPhones(+page, +limit);
 
+  res.status(200);
   res.send(phones);
 };
