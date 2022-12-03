@@ -1,6 +1,6 @@
 import { Phone } from 'src/types/Phone';
 
-export const phoneData: Phone[] = [
+export const phonesData: Phone[] = [
   {
     'id': 1,
     'category': 'phones',
