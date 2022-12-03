@@ -1,13 +1,14 @@
-import { phonesData } from '../data/phones';
+import { phoneData } from '../data/phones';
 
 import { Phone } from 'src/types/Phone';
 
-export async function getSlicedPhones(
-  sortBy: string,
+export async function getSortedPhonesByPagination(
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  sortBy: any,
   page: number,
   limit: number,
 ) {
-  const phones: Phone[] = phonesData.sort((phoneA, phoneB) => {
+  const sortedPhones: Phone[] = [...phoneData].sort((phoneA, phoneB) => {
     switch (sortBy) {
       case 'Newest':
         return phoneB.year - phoneA.year;
@@ -27,7 +28,7 @@ export async function getSlicedPhones(
   const endIndex = page * limit;
 
   return {
-    content: phones.slice(startIndex, endIndex),
-    totalPhones: phones.length,
+    content: sortedPhones.slice(startIndex, endIndex),
+    totalPhones: sortedPhones.length,
   };
 }
