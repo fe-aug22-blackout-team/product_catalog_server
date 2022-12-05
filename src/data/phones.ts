@@ -1109,7 +1109,7 @@ export const phoneData: Phone[] = [
     'color': 'purple',
     'ram': '6GB',
     'year': 2022,
-    'image': 'https://i.imgur.com/bQquFYd.png',
+    'image': 'https://i.imgur.com/QxCe36g.png',
   },
   {
     'id': 75,
