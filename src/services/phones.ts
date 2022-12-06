@@ -5,7 +5,7 @@ import { Phone } from 'src/types/Phone';
 
 export function getAllPhones() {
   const data = fs.readFileSync(
-    path.resolve('dist', 'data', 'phones.json'),
+    path.resolve(__dirname, 'data', 'phones.json'),
     'utf8',
   );
 
@@ -14,7 +14,7 @@ export function getAllPhones() {
 
 export function getPhoneById(phoneId: string) {
   const data = fs.readFileSync(
-    path.resolve('dist', 'data', 'phones', `${phoneId}.json`),
+    path.resolve(__dirname, 'data', 'phones', `${phoneId}.json`),
     'utf8',
   );
 
