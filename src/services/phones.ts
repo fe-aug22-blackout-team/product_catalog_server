@@ -1,6 +1,25 @@
-import { phoneData } from '../data/phones';
+import fs from 'fs';
+import path from 'path';
 
 import { Phone } from 'src/types/Phone';
+
+export function getAllPhones() {
+  const data = fs.readFileSync(
+    path.resolve('dist', 'data', 'phones.json'),
+    'utf8',
+  );
+
+  return JSON.parse(data);
+}
+
+export function getPhoneById(phoneId: string) {
+  const data = fs.readFileSync(
+    path.resolve('dist', 'data', 'phones', `${phoneId}.json`),
+    'utf8',
+  );
+
+  return JSON.parse(data);
+}
 
 export async function getSortedPhonesByPagination(
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -8,7 +27,9 @@ export async function getSortedPhonesByPagination(
   page: number,
   limit: number,
 ) {
-  const sortedPhones: Phone[] = [...phoneData].sort((phoneA, phoneB) => {
+  const sortedPhones: Phone[] = getAllPhones();
+
+  sortedPhones.sort((phoneA, phoneB) => {
     switch (sortBy) {
       case 'Newest':
         return phoneB.year - phoneA.year;
