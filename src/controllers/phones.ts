@@ -16,3 +16,12 @@ export const getSlicedPhones = async(req: Request, res: Response) => {
   res.status(200);
   res.send(phones);
 };
+
+export const getPhoneById = async(req: Request, res: Response) => {
+  const { phoneId } = req.params;
+
+  const phone = await phonesService.getPhoneById(phoneId);
+
+  res.status(200);
+  res.send(phone);
+};
