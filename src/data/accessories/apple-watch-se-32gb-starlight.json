@@ -1,0 +1,42 @@
+{
+  "id": "apple-watch-se-32gb-starlight",
+"namespaceId": "apple-watch-se",
+"name": "Apple Watch SE 40mm 32GB Starlight",
+"capacityAvailable": ["32GB"],
+"capacity": "32GB",
+"priceRegular": 800,
+"priceDiscount": 780,
+"colorsAvailable": ["midnight", "starlight", "white"],
+"color": "starlight",
+"images": [
+  "https://i.imgur.com/tBEI953.png",
+  "https://i.imgur.com/4t7Ju7c.png",
+  "https://i.imgur.com/alsnj3I.png"
+],
+"description": [
+  {
+    "title": "Watch SE. Stronger than strong",
+    "text": [
+      "The large display accommodates all your favorite tasks and makes typing instantaneous.",
+      "Same innovations used to create a beautiful edge-to-edge Always-On display also make it incredibly durable. The thick front die, solid geometry and flat base make it resistant to cracking."
+    ]
+  },
+  {
+    "title": "Sleep device",
+    "text": [
+      "The Sleep program does more than just keep track of your sleep. It shows how much time you spent in REM, basic or deep sleep, as well as the time when you could wake up."
+    ]
+  },
+  {
+    "title": "We hope you never need innovation",
+    "text": [
+      "Introducing the crash detection feature. For the first time, Apple Watch can tell if you've been in a serious car accident. When an accident is detected, Crash Detection can automatically connect you to emergency services, provide dispatchers with your location, and notify your emergency contacts."
+    ]
+  }
+],
+"screen": "40mm LTPO",
+"resolution": "324х394",
+"processor": "S8",
+"ram": "1GB",
+"cell": ["GPRS", "EDGE", "LTE"]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "apple-case-iphone-14-pink",
+"namespaceId": "apple-case-iphone-14",
+"name": "Apple Silicone Case For iPhone 14 Pink",
+"priceRegular": 70,
+"priceDiscount": 67,
+"colorsAvailable": ["midnight", "blue", "pink", "red"],
+"color": "pink",
+"images": [
+  "https://i.imgur.com/8uLu6MW.png",
+  "https://i.imgur.com/Q52hSVb.png",
+  "https://i.imgur.com/ZEpeOif.png"
+],
+"description": [
+  {
+    "title": "Keep your device clean",
+    "text": [
+      "The Apple Silicone Case is stylish protection for your iPhone 14.",
+      "The outer silicone surface is specially treated and is very pleasant to the touch. And a soft microfiber lining gives your iPhone extra protection."
+    ]
+  },
+  {
+    "title": "Etalon of safety",
+    "text": [
+      "Built-in magnets align exactly with the magnets on the back of iPhone 14 to hold the case securely while still making it easy to remove. The magnets align devices perfectly, so wireless charging is even more convenient and faster."
+    ]
+  },
+  {
+    "title": "Stylish",
+    "text": [
+      "Like other Apple products, this case has been rigorously tested for thousands of hours at every stage of design and manufacturing. As a result, it not only looks great, but also perfectly protects your iPhone from scratches and damage when dropped."
+    ]
+  }
+],
+"form-factor": "panel",
+"material": "silicone",
+"model": "Apple iPhone 14",
+"brand": "Apple",
+"madein": "China"
+}

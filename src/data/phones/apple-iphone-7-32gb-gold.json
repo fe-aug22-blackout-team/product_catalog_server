@@ -9,11 +9,11 @@
   "colorsAvailable": ["black", "rosegold", "gold", "silver"],
   "color": "gold",
   "images": [
-    "img/phones/apple-iphone-7/gold/00.jpg",
-    "img/phones/apple-iphone-7/gold/01.jpg",
-    "img/phones/apple-iphone-7/gold/02.jpg",
-    "img/phones/apple-iphone-7/gold/03.jpg",
-    "img/phones/apple-iphone-7/gold/04.jpg"
+    "https://i.imgur.com/wbyAanS.png",
+    "https://i.imgur.com/bFDYXps.png",
+    "https://i.imgur.com/Dex7hqs.png",
+    "https://i.imgur.com/SOPaU7H.jpg",
+    "https://i.imgur.com/yMkcMzj.png"
   ],
   "description": [
     {

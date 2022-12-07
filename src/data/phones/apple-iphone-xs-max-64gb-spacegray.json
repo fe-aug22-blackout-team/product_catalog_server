@@ -9,11 +9,11 @@
 	"colorsAvailable": ["spacegray", "gold", "silver"],
 	"color": "spacegray",
 	"images": [
-		"img/phones/apple-iphone-xs-max/spacegray/00.jpg",
-		"img/phones/apple-iphone-xs-max/spacegray/01.jpg",
-		"img/phones/apple-iphone-xs-max/spacegray/02.jpg",
-		"img/phones/apple-iphone-xs-max/spacegray/03.jpg",
-		"img/phones/apple-iphone-xs-max/spacegray/04.jpg"
+		"https://i.imgur.com/QdWMYlm.png",
+		"https://i.imgur.com/pJ58g8W.png",
+		"https://i.imgur.com/gQ5YQu0.png",
+		"https://i.imgur.com/Fyg326S.png",
+		"https://i.imgur.com/i3CwG9y.png"
 	],
 	"description": [
 		{

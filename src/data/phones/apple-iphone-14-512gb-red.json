@@ -1,0 +1,45 @@
+{
+  "id": "apple-iphone-14-512gb-red",
+"namespaceId": "apple-iphone-14",
+"name": "Apple iPhone 14 512GB Red",
+"capacityAvailable": ["128GB", "256GB", "512GB"],
+"capacity": "512GB",
+"priceRegular": 1400,
+"priceDiscount": 1400,
+"colorsAvailable": ["midnight", "blue", "purple", "red"],
+"color": "red",
+"images": [
+  "https://i.imgur.com/3dEIvHL.png",
+  "https://i.imgur.com/PQpFhH0.png",
+  "https://i.imgur.com/adfg6zd.png",
+  "https://i.imgur.com/iWFs08p.png"
+],
+"description": [
+  {
+    "title": "And then there was Pro",
+    "text": [
+      "A transformative triple-camera system that adds tons of capability without complexity.",
+      "An unprecedented leap in battery life. And a mind-blowing chip that doubles down on machine learning and pushes the boundaries of what a smartphone can do. Welcome to the first iPhone powerful enough to be called Pro."
+    ]
+  },
+  {
+    "title": "Camera",
+    "text": [
+      "Meet the first triple-camera system to combine cutting-edge technology with the legendary simplicity of iPhone. Capture up to four times more scene. Get beautiful images in drastically lower light. Shoot the highest-quality video in a smartphone — then edit with the same tools you love for photos. You’ve never shot with anything like it."
+    ]
+  },
+  {
+    "title": "Shoot it. Flip it. Zoom it. Crop it. Cut it. Light it. Tweak it. Love it.",
+    "text": [
+      "iPhone 11 Pro lets you capture videos that are beautifully true to life, with greater detail and smoother motion. Epic processing power means it can shoot 4K video with extended dynamic range and cinematic video stabilization — all at 60 fps. You get more creative control, too, with four times more scene and powerful new editing tools to play with."
+    ]
+  }
+],
+"screen": "6.6' XDR",
+"resolution": "2532х1170",
+"processor": "Apple A15 Bionic",
+"ram": "6GB",
+"camera": "12 Mp + 12 Mp + 12MP",
+"zoom": "Digital, 5x",
+"cell": ["GSM", "CDMA", "EVDO", "HSPA", "LTE", "5G"]
+}
