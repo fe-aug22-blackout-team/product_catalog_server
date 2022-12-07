@@ -9,11 +9,11 @@
 	"colorsAvailable": ["black", "rosegold", "gold", "silver"],
 	"color": "black",
 	"images": [
-		"img/phones/apple-iphone-7-plus/black/00.jpg",
-		"img/phones/apple-iphone-7-plus/black/01.jpg",
-		"img/phones/apple-iphone-7-plus/black/02.jpg",
-		"img/phones/apple-iphone-7-plus/black/03.jpg",
-		"img/phones/apple-iphone-7-plus/black/04.jpg"
+		"https://i.imgur.com/FClGdnm.png",
+		"https://i.imgur.com/IyVezUH.png",
+		"https://i.imgur.com/60ErFGJ.png",
+		"https://i.imgur.com/2OK9TXU.png",
+		"https://i.imgur.com/6xoRrCy.png"
 	],
 	"description": [
 		{

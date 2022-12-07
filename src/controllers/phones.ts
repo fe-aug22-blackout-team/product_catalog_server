@@ -2,12 +2,16 @@ import { Request, Response } from 'express';
 
 import * as phonesService from '../services/phones';
 
-export const getSlicedPhones = async(req: Request, res: Response) => {
-  const sort = req.query.sort || 'Newest';
-  const page = req.query.page || 1;
-  const limit = req.query.limit || 16;
+export const getPhonesByQuery = async(req: Request, res: Response) => {
+  const { sort, page, limit } = req.query;
 
-  const phones = await phonesService.getSortedPhonesByPagination(
+  if (!sort || !page || !limit) {
+    res.sendStatus(404);
+
+    return;
+  }
+
+  const phones = phonesService.getSortedPhonesByPagination(
     sort,
     +page,
     +limit,
@@ -19,9 +23,13 @@ export const getSlicedPhones = async(req: Request, res: Response) => {
 
 export const getPhoneById = async(req: Request, res: Response) => {
   const { phoneId } = req.params;
+  const phone = phonesService.getPhoneById(phoneId);
 
-  const phone = await phonesService.getPhoneById(phoneId);
-
-  res.status(200);
   res.send(phone);
+};
+
+export const getPhonesByDiscount = async(req: Request, res: Response) => {
+  const phones = phonesService.getPhonesByDiscount();
+
+  res.send(phones);
 };

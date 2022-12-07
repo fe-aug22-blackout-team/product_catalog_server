@@ -9,9 +9,9 @@
 	"colorsAvailable": ["spacegray", "midnightgreen", "gold", "silver"],
 	"color": "gold",
 	"images": [
-		"img/phones/apple-iphone-11-pro/gold/00.jpg",
-		"img/phones/apple-iphone-11-pro/gold/01.jpg",
-		"img/phones/apple-iphone-11-pro/gold/02.jpg"
+		"https://i.imgur.com/t9yaChN.png",
+		"https://i.imgur.com/omdh841.jpg",
+		"https://i.imgur.com/kvFOVPt.png"
 	],
 	"description": [
 		{

@@ -1,0 +1,44 @@
+{
+  "id": "apple-ipad-64gb-yellow",
+"namespaceId": "apple-ipad",
+"name": "Apple iPad 10.9' 64GB Yellow",
+"capacityAvailable": ["64GB", "128GB", "256GB"],
+"capacity": "64GB",
+"priceRegular": 1200,
+"priceDiscount": 1200,
+"colorsAvailable": ["spacegrey", "silver", "yellow", "pink"],
+"color": "yellow",
+"images": [
+  "https://i.imgur.com/i6wHnML.png",
+  "https://i.imgur.com/wLx0l6h.png",
+  "https://i.imgur.com/6LUrP8q.png"
+],
+"description": [
+  {
+    "title": "iPad Pro",
+    "text": [
+      "With the superpower of the Apple M1 chip.",
+      "This is the highest level of iPad. Incredible M1 chip performance, gorgeous XDR display and fast wireless. Full speed ahead."
+    ]
+  },
+  {
+    "title": "Camera",
+    "text": [
+      "Cameras - wide and ultra-wide angle - take great photos or videos. They can easily be used in multi-camera camera rigs. And thanks to an even more powerful signal processor in the M1 chip, iPad Pro now supports Smart HDR 3."
+    ]
+  },
+  {
+    "title": "Higher processing speed and graphics",
+    "text": [
+      "With an 8-core CPU in the M1 chip, performance is increased by up to 50%. And the 8-core GPU boosts graphics speed by up to 40%. That means you can create complex augmented reality models on iPad Pro, play games with console-grade graphics and high frame rates, and more."
+    ]
+  }
+],
+"screen": "10.9' XDR",
+"resolution": "2360х1640",
+"processor": "Apple A14 Bionic",
+"ram": "8GB",
+"camera": "12 Mp + 12MP",
+"zoom": "Digital, 5x",
+"cell": ["NONE"]
+}

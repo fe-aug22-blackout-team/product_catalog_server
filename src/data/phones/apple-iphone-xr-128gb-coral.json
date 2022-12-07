@@ -9,11 +9,9 @@
 	"colorsAvailable": ["white", "yellow", "red", "coral"],
 	"color": "coral",
 	"images": [
-		"img/phones/apple-iphone-xr/coral/00.jpg",
-		"img/phones/apple-iphone-xr/coral/01.jpg",
-		"img/phones/apple-iphone-xr/coral/02.jpg",
-		"img/phones/apple-iphone-xr/coral/03.jpg",
-		"img/phones/apple-iphone-xr/coral/04.jpg"
+		"https://i.imgur.com/qi6GsPu.png",
+		"https://i.imgur.com/lxjLFNx.png",
+		"https://i.imgur.com/WjgHtlD.png"
 	],
 	"description": [
 		{
