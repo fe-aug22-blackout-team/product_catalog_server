@@ -32,15 +32,15 @@ export function getPhoneById(phoneId: string) {
   };
 }
 
-export async function getSortedPhonesByPagination(
+export function getSortedPhonesByPagination(
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   sortBy: any,
   page: number,
   limit: number,
 ) {
-  const sortedPhones: Phone[] = getAllPhones();
+  const phones: Phone[] = getAllPhones();
 
-  sortedPhones.sort((phoneA, phoneB) => {
+  phones.sort((phoneA, phoneB) => {
     switch (sortBy) {
       case 'Newest':
         return phoneB.year - phoneA.year;
@@ -60,7 +60,20 @@ export async function getSortedPhonesByPagination(
   const endIndex = page * limit;
 
   return {
-    content: sortedPhones.slice(startIndex, endIndex),
-    totalPhones: sortedPhones.length,
+    content: phones.slice(startIndex, endIndex),
+    totalPhones: phones.length,
   };
+}
+
+export function getPhonesByDiscount() {
+  const phones: Phone[] = getAllPhones();
+
+  return [...phones]
+    .sort((phoneA, phoneB) => {
+      const prevDiscount = (phoneA.fullPrice - phoneA.price);
+      const currDiscount = (phoneB.fullPrice - phoneB.price);
+
+      return currDiscount - prevDiscount;
+    })
+    .slice(0, 15);
 }
