@@ -6,5 +6,6 @@ export const phonesRouter = express.Router();
 
 phonesRouter.get('/discount', phonesController.getPhonesByDiscount);
 phonesRouter.get('/new', phonesController.getNewPhones);
+phonesRouter.get('/parameters', phonesController.getPhoneByParameters);
 phonesRouter.get('/', phonesController.getPhonesByQuery);
 phonesRouter.get('/:phoneId', phonesController.getPhoneById);

@@ -38,3 +38,17 @@ export const getNewPhones = (req: Request, res: Response) => {
 
   res.send(phones);
 };
+
+export const getPhoneByParameters = (req: Request, res: Response) => {
+  const { model, capacity, color } = req.query;
+
+  if (!model || !capacity || !color) {
+    res.sendStatus(404);
+
+    return;
+  }
+
+  const phone = phonesService.getPhoneByParameters(model, capacity, color);
+
+  res.send(phone);
+};

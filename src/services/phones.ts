@@ -83,3 +83,17 @@ export function getNewPhones() {
     .sort((phoneA, phoneB) => phoneB.year - phoneA.year)
     .slice(0, 15);
 }
+
+export function getPhoneByParameters(
+  model: any,
+  capacity: any,
+  color: any,
+) {
+  const phones: Phone[] = getAllPhones();
+
+  return phones.find(phone => (
+    phone.model === model
+    && phone.capacity === capacity
+    && phone.color === color
+  ));
+}
