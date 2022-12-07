@@ -21,10 +21,7 @@ export function getPhoneById(phoneId: string) {
 
   const selectedPhone = JSON.parse(data);
   const similarPhones = phones.filter((phone: Phone) => {
-    const phoneModel = phone.name.split(' ')[2];
-    const prefferedPhoneModel = selectedPhone.name.split(' ')[2];
-
-    return phoneModel.includes(prefferedPhoneModel);
+    return selectedPhone.namespaceId === phone.model;
   });
 
   return {

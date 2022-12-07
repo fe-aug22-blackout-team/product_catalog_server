@@ -4,6 +4,7 @@ export interface Phone {
   phoneId: string,
   itemId: string,
   name: string,
+  model: string,
   fullPrice: number,
   price: number,
   screen: string,
