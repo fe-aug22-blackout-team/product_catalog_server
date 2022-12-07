@@ -2,7 +2,7 @@ import { Request, Response } from 'express';
 
 import * as phonesService from '../services/phones';
 
-export const getPhonesByQuery = async(req: Request, res: Response) => {
+export const getPhonesByQuery = (req: Request, res: Response) => {
   const { sort, page, limit } = req.query;
 
   if (!sort || !page || !limit) {
@@ -11,25 +11,30 @@ export const getPhonesByQuery = async(req: Request, res: Response) => {
     return;
   }
 
-  const phones = phonesService.getSortedPhonesByPagination(
+  const phones = phonesService.getPhonesByQuery(
     sort,
     +page,
     +limit,
   );
 
-  res.status(200);
   res.send(phones);
 };
 
-export const getPhoneById = async(req: Request, res: Response) => {
+export const getPhoneById = (req: Request, res: Response) => {
   const { phoneId } = req.params;
   const phone = phonesService.getPhoneById(phoneId);
 
   res.send(phone);
 };
 
-export const getPhonesByDiscount = async(req: Request, res: Response) => {
+export const getPhonesByDiscount = (req: Request, res: Response) => {
   const phones = phonesService.getPhonesByDiscount();
+
+  res.send(phones);
+};
+
+export const getNewPhones = (req: Request, res: Response) => {
+  const phones = phonesService.getNewPhones();
 
   res.send(phones);
 };
