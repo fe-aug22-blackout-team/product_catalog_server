@@ -18,7 +18,18 @@ export function getPhoneById(phoneId: string) {
     'utf8',
   );
 
-  return JSON.parse(data);
+  const selectedPhone = JSON.parse(data);
+  const similarPhones = getAllPhones().filter((phone: Phone) => {
+    const phoneModel = phone.name.split(' ')[2];
+    const prefferedPhoneModel = selectedPhone.name.split(' ')[2];
+
+    return phoneModel.includes(prefferedPhoneModel);
+  });
+
+  return {
+    selectedPhone,
+    similarPhones,
+  };
 }
 
 export async function getSortedPhonesByPagination(

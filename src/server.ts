@@ -11,5 +11,6 @@ const app = express();
 app.use(cors());
 
 app.use(`${BASE_URL}/phones`, phonesRouter);
+app.use(`${BASE_URL}/phones`, phonesRouter);
 
 export const handler = serverless(app);
