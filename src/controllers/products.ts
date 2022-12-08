@@ -5,22 +5,6 @@ import * as productsService from '../services/products';
 export const getProductsByQuery = (req: Request, res: Response) => {
   const { category, sort, page, limit } = req.query;
 
-  // if (!sort && !page && !limit) {
-  //   const allProducts = productsService.getAllProducts();
-
-  //   const phones = allProducts.filter(
-  //     (product: Product) => product.category === 'phones',
-  //   );
-  //   const tablets = allProducts.filter(
-  //     (product: Product) => product.category === 'tablets',
-  //   );
-
-  //   res.send({
-  //     phones,
-  //     tablets,
-  //   });
-  // }
-
   if (!sort || !page || !limit) {
     res.sendStatus(404);
 
