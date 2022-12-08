@@ -58,10 +58,10 @@ export const getProductByParameters = (req: Request, res: Response) => {
   res.send(product);
 };
 
-export const getProductsLengths = (req: Request, res: Response) => {
-  const lengths = productsService.getProductsLengths();
+export const getProductsQuantity = (req: Request, res: Response) => {
+  const productsQuantity = productsService.getProductsQuantity();
 
-  res.send(lengths);
+  res.send(productsQuantity);
 };
 
 export const getRecommendedProducts = (req: Request, res: Response) => {

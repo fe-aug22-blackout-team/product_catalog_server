@@ -103,22 +103,22 @@ export function getProductByParameters(
   ));
 }
 
-export function getProductsLengths() {
+export function getProductsQuantity() {
   const products: Product[] = getAllProducts();
 
-  const phonesLength = products
+  const phonesQuantity = products
     .filter(product => product.category === 'phones')
     .length;
-  const tabletsLength = products
+  const tabletsQuantity = products
     .filter(product => product.category === 'tablets')
     .length;
-  const accessoriesLength = products
+  const accessoriesQuantity = products
     .filter(product => product.category === 'accessories')
     .length;
 
   return {
-    phonesLength,
-    tabletsLength,
-    accessoriesLength,
+    phonesQuantity,
+    tabletsQuantity,
+    accessoriesQuantity,
   };
 }
