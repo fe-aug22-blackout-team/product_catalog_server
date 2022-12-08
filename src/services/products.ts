@@ -5,7 +5,7 @@ import { Product } from 'src/types/Product';
 
 export function getAllProducts() {
   const data = fs.readFileSync(
-    path.resolve('src', 'data', 'products.json'),
+    path.resolve(__dirname, 'data', 'products.json'),
     'utf8',
   );
 
@@ -14,7 +14,7 @@ export function getAllProducts() {
 
 export function getProductById(productId: string) {
   const data = fs.readFileSync(
-    path.resolve('src', 'data', 'products', `${productId}.json`),
+    path.resolve(__dirname, 'data', 'products', `${productId}.json`),
     'utf8',
   );
 
