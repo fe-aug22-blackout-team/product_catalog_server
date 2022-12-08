@@ -13,17 +13,15 @@ export function getAllPhones() {
 }
 
 export function getPhoneById(phoneId: string) {
+  const phones = getAllPhones();
   const data = fs.readFileSync(
     path.resolve(__dirname, 'data', 'phones', `${phoneId}.json`),
     'utf8',
   );
 
   const selectedPhone = JSON.parse(data);
-  const similarPhones = getAllPhones().filter((phone: Phone) => {
-    const phoneModel = phone.name.split(' ')[2];
-    const prefferedPhoneModel = selectedPhone.name.split(' ')[2];
-
-    return phoneModel.includes(prefferedPhoneModel);
+  const similarPhones = phones.filter((phone: Phone) => {
+    return selectedPhone.namespaceId === phone.model;
   });
 
   return {
@@ -32,13 +30,13 @@ export function getPhoneById(phoneId: string) {
   };
 }
 
-export function getSortedPhonesByPagination(
+export function getPhonesByQuery(
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   sortBy: any,
   page: number,
   limit: number,
 ) {
-  const phones: Phone[] = getAllPhones();
+  const phones: Phone[] = [...getAllPhones()];
 
   phones.sort((phoneA, phoneB) => {
     switch (sortBy) {
@@ -66,9 +64,9 @@ export function getSortedPhonesByPagination(
 }
 
 export function getPhonesByDiscount() {
-  const phones: Phone[] = getAllPhones();
+  const phones: Phone[] = [...getAllPhones()];
 
-  return [...phones]
+  return phones
     .sort((phoneA, phoneB) => {
       const prevDiscount = (phoneA.fullPrice - phoneA.price);
       const currDiscount = (phoneB.fullPrice - phoneB.price);
@@ -76,4 +74,26 @@ export function getPhonesByDiscount() {
       return currDiscount - prevDiscount;
     })
     .slice(0, 15);
+}
+
+export function getNewPhones() {
+  const phones: Phone[] = [...getAllPhones()];
+
+  return phones
+    .sort((phoneA, phoneB) => phoneB.year - phoneA.year)
+    .slice(0, 15);
+}
+
+export function getPhoneByParameters(
+  model: any,
+  capacity: any,
+  color: any,
+) {
+  const phones: Phone[] = getAllPhones();
+
+  return phones.find(phone => (
+    phone.model === model
+    && phone.capacity === capacity
+    && phone.color === color
+  ));
 }
